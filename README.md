@@ -9,7 +9,7 @@
 ## 使用方式
 
 ```bash
-python decrypt.py [-h] database
+python decrypt.py [-h] dbname
 ```
 
 ## 数据库文件获取方式
@@ -26,6 +26,6 @@ python decrypt.py [-h] database
 
 1. `adb backup com.fiveplay`（手机上需要确认备份操作）
 
-2. java -jar .\abe.jar unpack .\backup.ab backup.tar
+2. `java -jar .\abe.jar unpack .\backup.ab backup.tar`
 
 3. 解压 backup.tar 得到 `fiveeDB` 文件
